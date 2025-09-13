@@ -55,6 +55,9 @@ public class CCTest implements Cloneable{
 		
 		s2.id = 102;
 		System.out.println("data by s2 -> "+s2.id+" "+s2.name);
+		System.out.println("CC also have same value but different objects");
+		System.out.println("s1 object memory address-> "+s1.hashCode());
+		System.out.println("s2 object memory address-> "+s2.hashCode());
 		
 		//Constructors are called only at object creation → new Student(...).
 		//After object is created, any assignment like s2.id = 102;
